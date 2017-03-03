@@ -1,0 +1,15 @@
+RouterIntent	{DeviceName}
+RouterIntent	{Value}
+SetValueIntent	set value
+SetValueIntent	set value to {Value}
+SetValueIntent	change value to {Value}
+SetValueIntent	set {DeviceName} value to {Value}
+SetValueIntent	set the {DeviceName} value to {Value}
+SetValueIntent	change {DeviceName} value to {Value}
+SetValueIntent	change the {DeviceName} value to {Value}
+GetValueIntent	get value of {DeviceName}
+GetValueIntent	get {DeviceName} value
+GetValueIntent	read {DeviceName} value
+GetValueIntent	read value of {DeviceName}
+GetValueIntent	get value
+GetValueIntent	read value

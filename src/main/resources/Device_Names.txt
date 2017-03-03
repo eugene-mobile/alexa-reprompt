@@ -1,0 +1,9 @@
+Thermometer
+Sensor
+Calculator
+Device
+Computer
+Room
+Controller
+Lamp
+Plug

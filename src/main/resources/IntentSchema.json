@@ -1,0 +1,47 @@
+{
+	"intents": [
+	{
+		"intent": "AMAZON.HelpIntent"
+	},
+	{
+		"intent": "AMAZON.StopIntent"
+	
+	},
+	{
+		"intent": "AMAZON.CancelIntent"
+	
+	},
+	{
+		"intent": "SetValueIntent",
+		"slots": [
+		{
+			"name": "Value",
+			"type": "AMAZON.NUMBER"
+		}, 
+        {
+			"name": "DeviceName", 
+			"type": "Device_Names"
+        }]
+    }, 
+	{
+		"intent": "GetValueIntent",
+		"slots": [
+        {
+			"name": "DeviceName", 
+			"type": "Device_Names"
+        }]
+    }, 
+	{
+		"intent": "RouterIntent",
+		"slots": [
+        {
+			"name": "Value",
+			"type": "AMAZON.NUMBER"
+		}, 
+        {
+			"name": "DeviceName", 
+			"type": "Device_Names"
+        }]
+    }
+    ] 
+}
