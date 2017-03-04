@@ -14,6 +14,15 @@ import com.amazon.speech.speechlet.SpeechletResponse;
 import com.amazon.speech.ui.PlainTextOutputSpeech;
 import com.amazon.speech.ui.Reprompt;
 
+/**
+ * This handler responds to 'set value' intents.
+ * It requires device name and value to be specified.
+ * If both values are provided from the user intent, it responds with "Setting value to device..." response
+ * with information where the value and the device name were taken from (session or intent directly).
+ * If any of the required information is missing, it re-prompts the users.
+ * @author Eugene
+ *
+ */
 public class SetValueIntentHandler extends AbstractIntentHandler {
 
 	private static final Logger log = LoggerFactory.getLogger(SetValueIntentHandler.class);

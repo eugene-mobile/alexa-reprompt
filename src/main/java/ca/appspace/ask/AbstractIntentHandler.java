@@ -11,6 +11,11 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+/**
+ * An abstract intent handler that specifies app-specific values.
+ * 
+ * @author Eugene
+ */
 abstract class AbstractIntentHandler {
 
 	protected static final String DEVICE_KEY = "DeviceName";

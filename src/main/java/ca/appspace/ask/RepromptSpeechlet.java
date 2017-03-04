@@ -20,6 +20,12 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
+/**
+ * This is the speechlet for reprompt skill.
+ * 
+ * @author Eugene
+ *
+ */
 public class RepromptSpeechlet implements SpeechletV2 {
 
 	private static final Logger log = LoggerFactory.getLogger(RepromptSpeechlet.class);

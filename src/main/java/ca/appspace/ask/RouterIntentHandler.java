@@ -12,6 +12,14 @@ import com.amazon.speech.speechlet.IntentRequest;
 import com.amazon.speech.speechlet.SpeechletResponse;
 import com.amazon.speech.ui.PlainTextOutputSpeech;
 
+/**
+ * This intent handler is called when user provides additional information in reprompt.
+ * As AbstractIntentHandler saves original intent into session as INTENT_KEY attribute, the router
+ * is able to re-route request into another intent handler.
+ * 
+ * @author Eugene
+ *
+ */
 public class RouterIntentHandler extends AbstractIntentHandler {
 
 	public static final String INTENT_NAME = "RouterIntent";

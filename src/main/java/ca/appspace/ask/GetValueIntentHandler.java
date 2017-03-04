@@ -14,6 +14,13 @@ import com.amazon.speech.speechlet.SpeechletResponse;
 import com.amazon.speech.ui.PlainTextOutputSpeech;
 import com.amazon.speech.ui.Reprompt;
 
+/**
+ * This intent handler allows to "read value" from a device.
+ * If device name is missing, it re-promts for device name
+ * 
+ * @author Eugene
+ *
+ */
 public class GetValueIntentHandler extends AbstractIntentHandler {
 
 	private static final Logger log = LoggerFactory.getLogger(GetValueIntentHandler.class);
